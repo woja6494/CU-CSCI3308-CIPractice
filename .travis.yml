@@ -1,0 +1,7 @@
+install: make dep
+language: c
+script: make clean && make test
+compiler: gcc
+
+sudo: required
+
